@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "companyLogo": "https://example.com/logo.png",
+        "companyLogo": "google-1-1 1.png",
         "jobTitle": "Software Engineer",
         "companyName": "Example Inc.",
         "remoteOrOnsite": "Remote",
@@ -19,7 +19,7 @@
     },
     {
         "id": 2,
-        "companyLogo": "https://example.com/logo.png",
+        "companyLogo": "netflix-4 1.png",
         "jobTitle": "Data Analyst",
         "companyName": "Example Inc.",
         "remoteOrOnsite": "Onsite",
@@ -37,7 +37,7 @@
     },
     {
         "id": 3,
-        "companyLogo": "https://example.com/logo.png",
+        "companyLogo": "tesla-9 1.png",
         "jobTitle": "Marketing Manager",
         "companyName": "Example Inc.",
         "remoteOrOnsite": "Onsite",
@@ -55,7 +55,7 @@
     },
     {
         "id": 4,
-        "companyLogo": "https://example.com/logo.png",
+        "companyLogo": "Group 10021.png",
         "jobTitle": "Graphic Designer",
         "companyName": "Example Inc.",
         "remoteOrOnsite": "Remote",
@@ -73,7 +73,7 @@
     },
     {
         "id": 5,
-        "companyLogo": "https://example.com/logo.png",
+        "companyLogo": "logo-2.jpg",
         "jobTitle": "Product Manager",
         "companyName": "Example Inc.",
         "remoteOrOnsite": "Onsite",
@@ -91,7 +91,7 @@
     },
     {
         "id": 6,
-        "companyLogo": "https://example.com/logo.png",
+        "companyLogo": "logo-1.jpg",
         "jobTitle": "Human Resources Manager",
         "companyName": "Example Inc.",
         "remoteOrOnsite": "Onsite",

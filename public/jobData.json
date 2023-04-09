@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Example Inc.",
+        "remoteOrOnsite": "Remote",
+        "location": "Any Location",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "Competitive",
+        "jobDescription": "We are looking for a skilled software engineer to join our team...",
+        "jobResponsibility": "Responsibilities include developing new features, fixing bugs, and maintaining existing codebase...",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+        "experiences": "Minimum of 3 years of experience in software development...",
+        "contactInformation": {
+            "phone": "555-555-1234",
+            "email": "example@company.com"
+        }
+    },
+    {
+        "id": 2,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Data Analyst",
+        "companyName": "Example Inc.",
+        "remoteOrOnsite": "Onsite",
+        "location": "New York, NY",
+        "fullTimeOrPartTime": "Part-time",
+        "salary": "$30-$40/hour",
+        "jobDescription": "We are seeking a data analyst to help us analyze our data and provide insights to the business...",
+        "jobResponsibility": "Responsibilities include performing data analysis, creating visualizations, and presenting findings to stakeholders...",
+        "educationalRequirements": "Bachelor's degree in Statistics or related field...",
+        "experiences": "Minimum of 2 years of experience in data analysis...",
+        "contactInformation": {
+            "phone": "555-555-5678",
+            "email": "jobs@company.com"
+        }
+    },
+    {
+        "id": 3,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Marketing Manager",
+        "companyName": "Example Inc.",
+        "remoteOrOnsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "$80,000-$100,000 per year",
+        "jobDescription": "We are looking for a Marketing Manager to lead our marketing team...",
+        "jobResponsibility": "Responsibilities include creating marketing strategies, managing campaigns, and analyzing campaign performance...",
+        "educationalRequirements": "Bachelor's degree in Marketing or related field...",
+        "experiences": "Minimum of 5 years of experience in marketing management...",
+        "contactInformation": {
+            "phone": "555-555-9012",
+            "email": "hr@company.com"
+        }
+    },
+    {
+        "id": 4,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Graphic Designer",
+        "companyName": "Example Inc.",
+        "remoteOrOnsite": "Remote",
+        "location": "Any Location",
+        "fullTimeOrPartTime": "Part-time",
+        "salary": "$25-$30/hour",
+        "jobDescription": "We are looking for a talented graphic designer to join our team...",
+        "jobResponsibility": "Responsibilities include designing and producing various graphics such as logos, flyers, and social media posts...",
+        "educationalRequirements": "Bachelor's degree in Graphic Design or related field...",
+        "experiences": "Minimum of 2 years of experience in graphic design...",
+        "contactInformation": {
+            "phone": "555-555-3456",
+            "email": "designjobs@company.com"
+        }
+    },
+    {
+        "id": 5,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Product Manager",
+        "companyName": "Example Inc.",
+        "remoteOrOnsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "$120,000-$150,000 per year",
+        "jobDescription": "We are looking for a Product Manager to lead our product team...",
+        "jobResponsibility": "Responsibilities include creating product roadmaps, defining product requirements, and conducting user research...",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+        "experiences": "Minimum of 5 years of experience in product management...",
+        "contactInformation": {
+            "phone": "555-555-6789",
+            "email": "productjobs@company.com"
+        }
+    },
+    {
+        "id": 6,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Human Resources Manager",
+        "companyName": "Example Inc.",
+        "remoteOrOnsite": "Onsite",
+        "location": "Austin, TX",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "$90,000-$110,000 per year",
+        "jobDescription": "We are looking for a Human Resources Manager to lead our HR team...",
+        "jobResponsibility": "Responsibilities include managing the employee life cycle, developing HR policies, and maintaining HR records...",
+        "educationalRequirements": "Bachelor's degree in Human Resources or related field...",
+        "experiences": "Minimum of 7 years of experience in HR management...",
+        "contactInformation": {
+            "phone": "555-555-2345",
+            "email": "hrjobs@company.com"
+        }
+    }
+]

@@ -10,7 +10,9 @@ const JobDetails = () => {
 
     return (
         <div>
-            <h2>job details</h2>
+            <div className='job-details-title'>
+                <h2>Job Details</h2>
+            </div>
             <div className='details-container'>
                 <div className='details-left-info'>
                     <p><span>Job Description : </span> {jobDescription}</p>

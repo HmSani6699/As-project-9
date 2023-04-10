@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    background: linear-gradient(90deg, rgb(126 144 254 / 12%) 0%, rgb(152 115 255 / 10%) 100%);
 }
 
 .nav-link {

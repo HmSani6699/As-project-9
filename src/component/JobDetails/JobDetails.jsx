@@ -1,5 +1,7 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import './jobDetails.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faEnvelopeOpen, faLocationDot, faPhone, faSackDollar } from '@fortawesome/free-solid-svg-icons';
 
 const JobDetails = () => {
     const loadId = useParams();
@@ -23,7 +25,40 @@ const JobDetails = () => {
                     <p>{experiences}</p>
                 </div>
                 <div className='details-right-info'>
-                    <h1>Cart</h1>
+                    <h4 className='top-title'>Job Details</h4>
+                    <hr />
+                    <div className='cart-info'>
+                        <img src="/public/Frame.png" alt="" />
+                        <p> <span>Salary : </span> {salary}</p>
+                    </div>
+
+                    <div className='cart-info'>
+                        <img src="/public/Frame-1.png" alt="" />
+                        <p> <span>Job Title : </span> {jobTitle}</p>
+                    </div>
+                    <h4>Contact Information</h4>
+                    <hr />
+
+                    <div className='cart-info'>
+
+                    </div>
+                    <div className='cart-info'>
+                        <img src="/public/Frame-2.png" alt="" />
+                        <p> <span>Phone : </span> {contactInformation.phone}</p>
+                    </div>
+                    <div className='cart-info'>
+                        <img src="/public/Frame-3.png" alt="" />
+                        <p> <span>Email : </span> {contactInformation.email}</p>
+                    </div>
+
+                    <div className='cart-info'>
+                        <img src="/public/Frame-4.png" alt="" />
+                        <p><span>Address : </span> {location}</p>
+                    </div>
+
+
+
+                    <button className='apply-now-btn'>Apply Now</button>
                 </div>
             </div>
         </div>

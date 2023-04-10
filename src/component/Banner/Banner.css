@@ -18,7 +18,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .banner-description {
@@ -38,4 +37,20 @@
 
 .banner-Img img {
     width: 100%;
+}
+
+/* using media query  */
+@media screen and (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .banner-blog {
+        text-align: center;
+    }
+
+    .banner-Img {
+        padding-top: 20px;
+    }
 }

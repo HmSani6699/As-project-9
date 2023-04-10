@@ -1,0 +1,10 @@
+.see-all-jobs-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.all-jobs-btn {
+    color: white;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+}

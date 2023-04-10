@@ -58,3 +58,15 @@
     width: 100%;
     color: white;
 }
+
+@media screen and (max-width:600px) {
+    .details-container {
+        grid-template-columns: 1fr;
+        margin: 100px 20px;
+    }
+
+    .details-right-info {
+        text-align: justify;
+    }
+
+}

@@ -31,33 +31,24 @@ const JobDetails = () => {
                         <img src="/public/Frame.png" alt="" />
                         <p> <span>Salary : </span> {salary}</p>
                     </div>
-
                     <div className='cart-info'>
                         <img src="/public/Frame-1.png" alt="" />
                         <p> <span>Job Title : </span> {jobTitle}</p>
                     </div>
                     <h4>Contact Information</h4>
                     <hr />
-
-                    <div className='cart-info'>
-
-                    </div>
                     <div className='cart-info'>
                         <img src="/public/Frame-2.png" alt="" />
                         <p> <span>Phone : </span> {contactInformation.phone}</p>
                     </div>
                     <div className='cart-info'>
                         <img src="/public/Frame-3.png" alt="" />
-                        <p> <span>Email : </span> {contactInformation.email}</p>
+                        <p><span>Email : </span> {contactInformation.email}</p>
                     </div>
-
                     <div className='cart-info'>
                         <img src="/public/Frame-4.png" alt="" />
                         <p><span>Address : </span> {location}</p>
                     </div>
-
-
-
                     <button className='apply-now-btn'>Apply Now</button>
                 </div>
             </div>

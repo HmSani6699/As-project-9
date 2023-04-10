@@ -1,26 +1,27 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
+import './jobDetails.css';
 
 const JobDetails = () => {
     const loadId = useParams();
-    const [jobs, setJobs] = useState([])
-    useEffect(() => {
-        fetch('/jobData.json')
-            .then(res => res.json())
-            .then(data => setJobs(data))
-    }, []);
-    const job = jobs.filter(job => job.id === +loadId.jobId);
+    const loadData = useLoaderData();
+    const getJob = loadData.filter(job => job.id === +loadId.jobId);
 
-    console.log(job[0])
+    const { contactInformation, educationalRequirements, experiences, jobDescription, jobResponsibility, location, jobTitle, salary } = getJob[0];
+
     return (
         <div>
             <h2>job details</h2>
             <div className='details-container'>
                 <div className='details-left-info'>
-
+                    <p><span>Job Description : </span> {jobDescription}</p>
+                    <p><span>Job Responsibility :</span> {jobResponsibility}</p>
+                    <p><span>Educational Requirements :</span></p>
+                    <p>{educationalRequirements}</p>
+                    <p><span>Experiences :</span></p>
+                    <p>{experiences}</p>
                 </div>
                 <div className='details-right-info'>
-
+                    <h1>Cart</h1>
                 </div>
             </div>
         </div>

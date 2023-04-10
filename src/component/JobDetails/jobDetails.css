@@ -1,0 +1,12 @@
+.details-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.details-left-info p {
+    margin: 10px 0;
+}
+
+.details-left-info span {
+    font-weight: 800;
+}

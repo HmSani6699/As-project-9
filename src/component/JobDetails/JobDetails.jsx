@@ -9,10 +9,20 @@ const JobDetails = () => {
             .then(res => res.json())
             .then(data => setJobs(data))
     }, []);
+    const job = jobs.filter(job => job.id === +loadId.jobId);
 
+    console.log(job[0])
     return (
         <div>
             <h2>job details</h2>
+            <div className='details-container'>
+                <div className='details-left-info'>
+
+                </div>
+                <div className='details-right-info'>
+
+                </div>
+            </div>
         </div>
     );
 };

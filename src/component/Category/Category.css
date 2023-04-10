@@ -25,3 +25,16 @@
     color: #A3A3A3;
     margin-top: 8px;
 }
+
+/* media query  */
+@media screen and (max-width: 556px) {
+    .category-container {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
+    .category-container {
+        text-align: center;
+    }
+}

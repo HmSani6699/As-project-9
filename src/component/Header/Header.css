@@ -30,7 +30,24 @@
     border-radius: 8px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 556px) {
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .nav-link a {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
     .header-container {
         flex-direction: column;
         gap: 15px;

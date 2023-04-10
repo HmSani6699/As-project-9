@@ -40,7 +40,7 @@
 }
 
 /* using media query  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width:556px) {
     .banner-container {
         flex-direction: column;
         padding: 20px;
@@ -48,6 +48,29 @@
 
     .banner-blog {
         text-align: center;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner-Img {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .banner-blog {
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 60px;
     }
 
     .banner-Img {

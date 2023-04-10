@@ -3,7 +3,6 @@ import './FeaturedJob.css';
 import Job from '../Job/Job';
 
 const FeaturedJob = ({ jobs }) => {
-    console.log(jobs)
     return (
         <div>
             <div className='featured-info'>

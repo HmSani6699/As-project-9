@@ -20,6 +20,27 @@
 .featured-job-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 30px;
+    margin-top: 50px;
     gap: 25px;
+    padding: 10px;
+}
+
+@media screen and (max-width:556px) {
+    .featured-job-container {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-info {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
+    .featured-job-container {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-info {
+        margin-top: 40px;
+    }
 }

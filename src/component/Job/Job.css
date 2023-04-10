@@ -27,7 +27,7 @@
 .job-time-container {
     display: flex;
     gap: 20px;
-    margin: 16px 0;
+    margin: 10px 0;
 }
 
 .job-time-container p {
@@ -41,10 +41,67 @@
     background-clip: text;
 }
 
+.icon-container p {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0px;
+}
+
+.salary {
+    margin-left: 20px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
 .view-details-btn {
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     border-radius: 4px;
     padding: 10px;
-    color: white;
     margin-top: 20px;
+}
+
+.view-details-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:556px) {
+    .job-container {
+        text-align: center;
+    }
+
+    .job-time-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-container {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
+    .job-container {
+        text-align: center;
+    }
+
+    .job-time-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-container {
+        flex-direction: column;
+    }
+
 }

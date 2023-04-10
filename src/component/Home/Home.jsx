@@ -7,6 +7,7 @@ import './Home.css';
 
 const Home = () => {
     const loadJobs = useLoaderData();
+
     const [jobs, setJobs] = useState(loadJobs.slice(0, 4));
     return (
         <div>

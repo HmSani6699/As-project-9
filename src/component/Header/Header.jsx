@@ -15,10 +15,6 @@ const Header = () => {
                 </nav>
                 <button className='header-btn'>Star Applying</button>
             </div>
-            <div className='banner-container'>
-                <div></div>
-                <div></div>
-            </div>
         </div>
     );
 };

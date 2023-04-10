@@ -1,0 +1,23 @@
+/* banner blog part style */
+.banner-title {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+    color: #1A1919;
+    margin: 0px;
+}
+
+.banner-description {
+    color: #757575;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.banner-button {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+/* banner img style part */

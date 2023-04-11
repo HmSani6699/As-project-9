@@ -1,0 +1,9 @@
+.job-details-title {
+    height: 200px;
+    background-image: url('/public/Vector.png'), url('/public/Vector-1.png');
+    background-repeat: no-repeat;
+    background-position: 0% 0%, right top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

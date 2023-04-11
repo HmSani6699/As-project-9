@@ -1,3 +1,11 @@
+.option-container {
+    margin-left: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
 .job-details-title {
     height: 200px;
     background-image: url('/public/Vector.png'), url('/public/Vector-1.png');

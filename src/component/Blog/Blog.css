@@ -1,3 +1,10 @@
 .blog-container {
     margin: 100px 50px;
 }
+
+@media screen and (max-width: 556px) {
+    .blog-container {
+        margin: 50px 10px;
+        text-align: justify;
+    }
+}

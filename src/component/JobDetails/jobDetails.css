@@ -62,7 +62,7 @@
 @media screen and (max-width:600px) {
     .details-container {
         grid-template-columns: 1fr;
-        margin: 100px 20px;
+        margin: 45px 20px;
     }
 
     .details-right-info {

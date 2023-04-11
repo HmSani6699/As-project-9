@@ -77,7 +77,7 @@
 @media screen and (max-width:556px) {
     .job-container {
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
 
     .job-time-container {
@@ -89,12 +89,16 @@
         flex-direction: column;
     }
 
+    .view-details-btn {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 556px) and (max-width: 768px) {
     .job-container {
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
 
     .job-time-container {

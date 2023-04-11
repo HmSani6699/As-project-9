@@ -1,42 +1,42 @@
 [
     {
-        "id": 1,
-        "name": "ProtFolio",
-        "marks": 60
+        "name": "Assignment 1",
+        "marks": 60,
+        "total": 60
     },
     {
-        "id": 2,
-        "name": "Phone hunter",
-        "marks": 60
+        "name": "Assignment 2",
+        "marks": 60,
+        "total": 60
     },
     {
-        "id": 3,
-        "name": "Food website",
-        "marks": 59
+        "name": "Assignment 3",
+        "marks": 59,
+        "total": 60
     },
     {
-        "id": 4,
-        "name": "Money muster",
-        "marks": 60
+        "name": "Assignment 4",
+        "marks": 60,
+        "total": 60
     },
     {
-        "id": 5,
-        "name": "Job website",
-        "marks": 60
+        "name": "Assignment 5",
+        "marks": 60,
+        "total": 60
     },
     {
-        "id": 6,
-        "name": "Ema jhon",
-        "marks": 60
+        "name": "Assignment 6",
+        "marks": 60,
+        "total": 60
     },
     {
-        "id": 7,
-        "name": "Honda website",
-        "marks": 60
+        "name": "Assignment 7",
+        "marks": 60,
+        "total": 60
     },
     {
-        "id": 8,
-        "name": "Digital",
-        "marks": 30
+        "name": "Assignment 8",
+        "marks": 30,
+        "total": 60
     }
 ]

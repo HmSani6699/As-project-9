@@ -1,0 +1,14 @@
+.error-container img {
+    width: 300px;
+}
+
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.home-back-btn {
+    text-align: center;
+}

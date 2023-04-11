@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className='company-info'>
                     <h2>Job hiring</h2>
                     <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
-                    <img src="/public/comany-logo.png" alt="" />
+                    <img src="comany-logo.png" alt="" />
                 </div>
                 <div className='company'>
                     <h4>Company</h4>

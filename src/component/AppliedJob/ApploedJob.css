@@ -1,0 +1,30 @@
+.applied-job-container {
+    margin-bottom: 25px;
+}
+
+.applied-blog-part {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.applied-logo {
+    width: 230px;
+    height: 230px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.applied-logo img {
+    width: 100%;
+}
+
+.applied-job-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

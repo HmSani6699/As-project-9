@@ -1,7 +1,7 @@
 .banner-container {
     display: flex;
     align-items: center;
-    padding: 50px 10px 0px 10px;
+    padding: 50px 50px 0px 50px;
     background: linear-gradient(90deg, rgb(126 144 254 / 8%) 0%, rgb(152 115 255 / 7%) 100%);
 }
 
@@ -51,7 +51,7 @@
     }
 
     .banner-title {
-        font-size: 50px;
+        font-size: 48px;
     }
 
     .banner-Img {

@@ -28,3 +28,28 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width:556px) {
+    .applied-blog-part {
+        flex-direction: column;
+    }
+
+    .applied-job-details {
+        flex-direction: column;
+    }
+
+    .applied-job-details {
+        display: flex;
+        align-items: normal;
+        justify-content: space-between;
+    }
+
+    .applied-logo {
+        width: 90%;
+        height: 190px;
+    }
+
+    .applied-logo img {
+        height: 50px;
+    }
+}

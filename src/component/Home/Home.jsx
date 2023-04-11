@@ -4,19 +4,21 @@ import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
 import { useLoaderData } from "react-router-dom";
 import './Home.css';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     const loadJobs = useLoaderData();
 
     const [jobs, setJobs] = useState(loadJobs.slice(0, 4));
     return (
-        <div>
+        <div className='all-container'>
             <Banner></Banner>
             <JobCategory></JobCategory>
             <FeaturedJob jobs={jobs}></FeaturedJob>
             <div className='see-all-jobs-button'>
                 <button onClick={() => setJobs(loadJobs)} className='all-jobs-btn'>See All jobs</button>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

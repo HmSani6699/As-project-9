@@ -28,7 +28,7 @@ const Statistics = () => {
             </div>
             <div className='recharts-container'>
                 <BarChart
-                    width={1200}
+                    width={1400}
                     height={400}
                     data={assignment}
                     margin={{

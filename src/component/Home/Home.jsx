@@ -16,7 +16,7 @@ const Home = () => {
             <JobCategory></JobCategory>
             <FeaturedJob jobs={jobs}></FeaturedJob>
             <div className='see-all-jobs-button'>
-                <button onClick={() => setJobs(loadJobs)} className='all-jobs-btn'>See All jobs</button>
+                <button onClick={() => setJobs(loadJobs)} className={`all-jobs-btn ${jobs.length === 6 && "btn_hid"}`}>See All jobs</button>
             </div>
             <Footer></Footer>
         </div>

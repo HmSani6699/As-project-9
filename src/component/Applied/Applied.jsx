@@ -7,6 +7,7 @@ import AppliedJob from '../AppliedJob/AppliedJob';
 const Applied = () => {
     const loadedJobData = useLoaderData();
     const storedJob = getShoppingCart();
+
     const [selectedItem, setSelectedItem] = useState("Remote")
 
     const appliedJobs = []
@@ -22,7 +23,7 @@ const Applied = () => {
         const getJob = appliedJobs.filter(job => job.remoteOrOnsite === selectedItem)
         setAllJob(getJob)
     }
-    console.log(selectedItem)
+
     return (
         <div>
             <div className='job-details-title'>

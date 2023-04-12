@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import './ApploedJob.css';
 
 const AppliedJob = ({ job }) => {
+
     const { id, companyLogo, companyName, jobTitle, fullTimeOrPartTime, remoteOrOnsite, location, salary } = job;
     return (
         <div className='applied-job-container'>

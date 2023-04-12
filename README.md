@@ -1,6 +1,8 @@
-<!-- # career hub
+# Job hiring
+#### - Responsive nav bar 
+####  - Awesome banner part
+#### - Job Category List
+#### - Multiple Job information 
+#### - Responsive Footer part
 
-Please create yoru private repo 
-## [https://classroom.github.com/a/0Citjo2y](https://classroom.github.com/a/0Citjo2y)
-
-### Private Repo Link: [https://classroom.github.com/a/0Citjo2y](https://classroom.github.com/a/0Citjo2y) -->
+### Private Repo Link: [https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-HmSani6699](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-HmSani6699)
